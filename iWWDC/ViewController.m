@@ -33,7 +33,7 @@
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
     SLComposeViewController *twitterController=[SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-    [twitterController setInitialText:@"iWWDC, has the WWDC finally started? Made by @bp_unicorn. #WWDC14"];
+    [twitterController setInitialText:@"iWWDC, has the WWDC finally started? Made by @pierre_blazquez. #WWDC14"];
     [twitterController addURL:[NSURL URLWithString:@"http://www.pierreblazquez.com/"]];
     [self presentViewController:twitterController animated:true completion:nil];
 }
