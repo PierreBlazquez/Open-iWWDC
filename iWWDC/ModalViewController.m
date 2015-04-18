@@ -58,7 +58,7 @@
 }
 
 - (IBAction)twitter:(id)sender {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.twitter.com/bp_unicorn"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://www.twitter.com/pierre_blazquez"]];
 }
 
 
